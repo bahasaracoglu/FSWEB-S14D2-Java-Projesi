@@ -11,7 +11,7 @@ public class Main {
         Wardobe wardobe1 = new Wardobe(4,5, 4.5);
         Carpet carpet1 = new Carpet(2,3,PaintColor.ORANGE);
 
-        Bedroom bedroom1 = new Bedroom("firstroom",wall1,wall1,wall1,wall2,ceiling1,bed1,lamp1,wardobe1,carpet1);
+        Bedroom bedroom1 = new Bedroom("firstroom",wall1,wall1,wall1,wall2,ceiling1,lamp1,carpet1,bed1,wardobe1);
         System.out.println(bedroom1.getBed());
         System.out.println(bedroom1.getName());
         System.out.println(bedroom1.getCarpet());
